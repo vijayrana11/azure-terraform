@@ -1,2 +1,3 @@
-rgname = "terraform-automated-rg-update"
+rgname = "terraform-automated-rg"
 location = "Central India"
+vnet_name = "terraform-automated-vnet"

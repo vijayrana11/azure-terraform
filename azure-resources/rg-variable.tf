@@ -7,7 +7,3 @@ variable "location" {
      
   
 }
-variable "managedby" {
-    description = "tagged with whome this resource was created"
-  
-}
