@@ -1,6 +1,3 @@
-rgname = "terraform-automated-rg"
-location = "Central India"
-vnet_name = "terraform-automated-vnet"
-subnet_name = "terraform-automated-vnet"
-mynic_name = "terraform-automated-nic"
-vm_name = "terraform-automated-vm"
+version https://git-lfs.github.com/spec/v1
+oid sha256:16f3bbd779d4b35b5545d142e1e991a5747203f70c16442faaef9004c0c6099d
+size 215
