@@ -4,6 +4,7 @@ resource "random_string" "virtual_vm_random" {
 }
 resource "azurerm_network_interface" "mynic" {
   name = var.mynic_name
+  location = azurerm_resource_group.example.location
   ip_configuration {
     name = "${var.mynic_name}-internal"
     subnet_id = azurerm_subnet.mysubnet.id
