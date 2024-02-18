@@ -1,18 +1,3 @@
-# Terraform Block
-terraform {
-  required_version = ">= 1.0.0"
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = ">= 2.0"
-    }
-  }
-}
-# provider block
-
-provider "azurerm" {
-  features {
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:da0a143048441ca7ce92e6b96a56783417532f2da447af25f732378caf896b2d
+size 234
