@@ -3,3 +3,7 @@ variable "vnet_name" {
   
 }
 
+variable "mynic_name" {
+    description = "this is for creating the nic "
+  
+}
